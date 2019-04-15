@@ -1,0 +1,70 @@
+ body, html{
+    height:100%;
+} 
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+ }
+ 
+/*main image on background */
+.parallax-container {
+      height: 500px;
+    }
+.hero-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../static/images/home-office.jpg');
+    overflow:auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    height: 100%;
+    position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 24px;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.box{
+    position: relative;
+    height: 500px;
+    background-color: black;
+    z-index: 1;
+    margin: 0px 10px 0px 10px;
+    padding: 2em;
+}
+
+.contact{
+     position: absolute;
+     color: white;
+}
+
+.parallax{
+  position:static;
+}
+
+.form{
+    padding-top: 75px;
+    postion: relative;
+}
+
+textarea {
+    height: 5em;
+}
+.heading{
+    text-decoration: underline;
+    text-decoration-color: red;
+    line-height: 1.5;
+}
