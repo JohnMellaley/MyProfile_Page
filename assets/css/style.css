@@ -97,6 +97,18 @@ textarea {
     color: #777;
 }
 
+.footer_links{
+    margin: 5px;
+}
+
+.footer_links:hover{
+    -webkit-transition: font-size 1s ease-out;
+    -moz-transition: font-size 1s ease-out;
+    -o-transition: font-size 1s ease-out;
+    transition: font-size 1s ease-out;
+    font-size: 125%
+    
+}
 @media screen and (max-width: 991px)  {
     .box{
             height: 700px;
