@@ -62,6 +62,15 @@ li a:hover{
     padding: 2em;
 }
 
+.college{
+    font-family: sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.subjects{
+    display: inline;
+}
 .contact{
      position: absolute;
      color: white;
